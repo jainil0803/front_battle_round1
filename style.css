@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.row li {
+    list-style: none;
+}
+
+.row img {
+    width: 100px; /* adjust size as needed */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
