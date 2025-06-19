@@ -7,80 +7,75 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">Frontend Development</div>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#"><span>🏠</span> Home</a></li>
-      <li><a href="#"><span>📄</span> About</a></li>
-      <li><a href="#"><span>📞</span> Contact Us</a></li>
-    </ul>
-    <div class="hamburger" id="hamburger">
-      ☰
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Frontend Development</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#"><span>🏠</span> Home</a></li>
+        <li><a href="#"><span>📄</span> About</a></li>
+        <li><a href="#"><span>📞</span> Contact Us</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">☰</div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <div class="screen">
     <div class="container content">
       <div class="box">
         <!-- Top Row -->
         <ul class="row">
-          <li><img src="data:image/png;base64,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" alt="img1" /></li>
-          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyBdlzH8J3mkUVrRKrUoiEowJ-9Bvq-oIsQ&s" alt="img2" /></li>
-          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT8fjh9NPJnU7iXEwLDUtzStaFA4YYQc_Og&s" alt="img3" /></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyBdlzH8J3mkUVrRKrUoiEowJ-9Bvq-oIsQ&s" alt="img1" /></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT8fjh9NPJnU7iXEwLDUtzStaFA4YYQc_Og&s" alt="img2" /></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd1zVnlsKZNjGxTrkGpiEtCNODJGlOhoOiSg&s" alt="img3" /></li>
         </ul>
         <!-- Bottom Row -->
         <ul class="row">
           <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd1zVnlsKZNjGxTrkGpiEtCNODJGlOhoOiSg&s" alt="img4" /></li>
-          <li><img src="data:image/png;base64,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" alt="img5" /></li>
-          <li><img src="data:image/png;base64,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" alt="img6" /></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyBdlzH8J3mkUVrRKrUoiEowJ-9Bvq-oIsQ&s" alt="img5" /></li>
+          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT8fjh9NPJnU7iXEwLDUtzStaFA4YYQc_Og&s" alt="img6" /></li>
         </ul>
       </div>
     </div>
 
-    <!-- Overlay button -->
     <div class="overlay">
       <button class="cta">Meet our customers →</button>
     </div>
   </div>
+
   <div class="brand-kits-panel">
-  <h3>Brand Kits</h3>
+    <h3>Brand Kits</h3>
 
-  <div class="kit">
-    <input type="checkbox" />
-    <div class="logo">
-      <div class="circle white"></div>
-      <div class="circle green"></div>
+    <div class="kit">
+      <input type="checkbox" />
+      <div class="logo">
+        <div class="circle white"></div>
+        <div class="circle green"></div>
+      </div>
+      <span>ECorp</span>
+      <button class="settings-btn">⚙️</button>
     </div>
-    <span>ECorp</span>
-    <button class="settings-btn">⚙️</button>
-  </div>
 
-  <div class="kit">
-    <input type="checkbox" />
-    <div class="logo">
-      <div class="circle white"></div>
-      <div class="circle orange"></div>
+    <div class="kit">
+      <input type="checkbox" />
+      <div class="logo">
+        <div class="circle white"></div>
+        <div class="circle orange"></div>
+      </div>
+      <span>ICorp</span>
+      <button class="settings-btn">⚙️</button>
     </div>
-    <span>ICorp</span>
-    <button class="settings-btn">⚙️</button>
-  </div>
 
-  <div class="kit selected">
-    <input type="checkbox" checked />
-    <div class="logo">
-      <div class="circle white"></div>
-      <div class="circle red"></div>
+    <div class="kit selected">
+      <input type="checkbox" checked />
+      <div class="logo">
+        <div class="circle white"></div>
+        <div class="circle red"></div>
+      </div>
+      <span>The Agency</span>
+      <button class="settings-btn">⚙️</button>
     </div>
-    <span>The Agency</span>
-    <button class="settings-btn">⚙️</button>
   </div>
-</div>
-
-
 
   <script src="script.js"></script>
 </body>
 </html>
-
